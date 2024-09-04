@@ -1,0 +1,90 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 15.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:coal"
+          },
+          "maxUses": 16,
+          "sell": {
+            "items": "minecraft:emerald"
+          },
+          "xp": 2
+        },
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 7.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:emerald"
+          },
+          "priceMultiplier": 0.2,
+          "sell": {
+            "items": "minecraft:iron_leggings"
+          }
+        },
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 4.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:emerald"
+          },
+          "priceMultiplier": 0.2,
+          "sell": {
+            "items": "minecraft:iron_boots"
+          }
+        },
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 5.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:emerald"
+          },
+          "priceMultiplier": 0.2,
+          "sell": {
+            "items": "minecraft:iron_helmet"
+          }
+        },
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 9.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:emerald"
+          },
+          "priceMultiplier": 0.2,
+          "sell": {
+            "items": "minecraft:iron_chestplate"
+          }
+        }
+      ],
+      "rolls": 2.0
+    }
+  ]
+}

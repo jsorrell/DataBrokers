@@ -1,0 +1,27 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "items": "minecraft:quartz_pillar"
+          },
+          "xp": 30
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "items": "minecraft:quartz_block"
+          },
+          "xp": 30
+        }
+      ],
+      "rolls": 2.0
+    }
+  ]
+}

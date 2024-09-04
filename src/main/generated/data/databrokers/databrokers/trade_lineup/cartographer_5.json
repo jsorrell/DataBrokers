@@ -1,0 +1,25 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 8.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "items": "minecraft:globe_banner_pattern"
+          },
+          "xp": 30
+        }
+      ],
+      "rolls": 2.0
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 11.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:glass_pane"
+          },
+          "maxUses": 16,
+          "sell": {
+            "items": "minecraft:emerald"
+          },
+          "xp": 10
+        },
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 13.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:emerald"
+          },
+          "buyB": {
+            "items": "minecraft:compass"
+          },
+          "priceMultiplier": 0.2,
+          "sell": {
+            "functions": [
+              {
+                "decoration": "minecraft:monument",
+                "destination": "minecraft:on_ocean_explorer_maps",
+                "function": "minecraft:exploration_map",
+                "search_radius": 100
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "translate": "filled_map.monument"
+                },
+                "target": "item_name"
+              }
+            ],
+            "items": "minecraft:map",
+            "result_predicates": [
+              {
+                "items": "minecraft:filled_map"
+              }
+            ]
+          },
+          "xp": 5
+        }
+      ],
+      "rolls": 2.0
+    }
+  ]
+}

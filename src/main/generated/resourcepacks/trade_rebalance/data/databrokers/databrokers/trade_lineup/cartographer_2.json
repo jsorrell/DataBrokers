@@ -1,0 +1,1096 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 11.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:glass_pane"
+          },
+          "maxUses": 16,
+          "sell": {
+            "items": "minecraft:emerald"
+          },
+          "xp": 10
+        },
+        {
+          "type": "databrokers:alternatives",
+          "children": [
+            {
+              "buy": {
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 8.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "items": "minecraft:emerald"
+              },
+              "buyB": {
+                "items": "minecraft:compass"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:desert"
+                    }
+                  }
+                }
+              ],
+              "priceMultiplier": 0.2,
+              "sell": {
+                "functions": [
+                  {
+                    "decoration": "minecraft:village_savanna",
+                    "destination": "minecraft:on_savanna_village_maps",
+                    "function": "minecraft:exploration_map",
+                    "search_radius": 100
+                  },
+                  {
+                    "function": "minecraft:set_name",
+                    "name": {
+                      "translate": "filled_map.village_savanna"
+                    },
+                    "target": "item_name"
+                  }
+                ],
+                "items": "minecraft:map",
+                "result_predicates": [
+                  {
+                    "items": "minecraft:filled_map"
+                  }
+                ]
+              },
+              "xp": 5
+            },
+            {
+              "buy": {
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 8.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "items": "minecraft:emerald"
+              },
+              "buyB": {
+                "items": "minecraft:compass"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:savanna"
+                    }
+                  }
+                }
+              ],
+              "priceMultiplier": 0.2,
+              "sell": {
+                "functions": [
+                  {
+                    "decoration": "minecraft:village_plains",
+                    "destination": "minecraft:on_plains_village_maps",
+                    "function": "minecraft:exploration_map",
+                    "search_radius": 100
+                  },
+                  {
+                    "function": "minecraft:set_name",
+                    "name": {
+                      "translate": "filled_map.village_plains"
+                    },
+                    "target": "item_name"
+                  }
+                ],
+                "items": "minecraft:map",
+                "result_predicates": [
+                  {
+                    "items": "minecraft:filled_map"
+                  }
+                ]
+              },
+              "xp": 5
+            },
+            {
+              "buy": {
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 8.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "items": "minecraft:emerald"
+              },
+              "buyB": {
+                "items": "minecraft:compass"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:plains"
+                    }
+                  }
+                }
+              ],
+              "priceMultiplier": 0.2,
+              "sell": {
+                "functions": [
+                  {
+                    "decoration": "minecraft:village_taiga",
+                    "destination": "minecraft:on_taiga_village_maps",
+                    "function": "minecraft:exploration_map",
+                    "search_radius": 100
+                  },
+                  {
+                    "function": "minecraft:set_name",
+                    "name": {
+                      "translate": "filled_map.village_taiga"
+                    },
+                    "target": "item_name"
+                  }
+                ],
+                "items": "minecraft:map",
+                "result_predicates": [
+                  {
+                    "items": "minecraft:filled_map"
+                  }
+                ]
+              },
+              "xp": 5
+            },
+            {
+              "buy": {
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 8.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "items": "minecraft:emerald"
+              },
+              "buyB": {
+                "items": "minecraft:compass"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:taiga"
+                    }
+                  }
+                }
+              ],
+              "priceMultiplier": 0.2,
+              "sell": {
+                "functions": [
+                  {
+                    "decoration": "minecraft:village_snowy",
+                    "destination": "minecraft:on_snowy_village_maps",
+                    "function": "minecraft:exploration_map",
+                    "search_radius": 100
+                  },
+                  {
+                    "function": "minecraft:set_name",
+                    "name": {
+                      "translate": "filled_map.village_snowy"
+                    },
+                    "target": "item_name"
+                  }
+                ],
+                "items": "minecraft:map",
+                "result_predicates": [
+                  {
+                    "items": "minecraft:filled_map"
+                  }
+                ]
+              },
+              "xp": 5
+            },
+            {
+              "buy": {
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 8.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "items": "minecraft:emerald"
+              },
+              "buyB": {
+                "items": "minecraft:compass"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:snow"
+                    }
+                  }
+                }
+              ],
+              "priceMultiplier": 0.2,
+              "sell": {
+                "functions": [
+                  {
+                    "decoration": "minecraft:village_plains",
+                    "destination": "minecraft:on_plains_village_maps",
+                    "function": "minecraft:exploration_map",
+                    "search_radius": 100
+                  },
+                  {
+                    "function": "minecraft:set_name",
+                    "name": {
+                      "translate": "filled_map.village_plains"
+                    },
+                    "target": "item_name"
+                  }
+                ],
+                "items": "minecraft:map",
+                "result_predicates": [
+                  {
+                    "items": "minecraft:filled_map"
+                  }
+                ]
+              },
+              "xp": 5
+            },
+            {
+              "buy": {
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 8.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "items": "minecraft:emerald"
+              },
+              "buyB": {
+                "items": "minecraft:compass"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:jungle"
+                    }
+                  }
+                }
+              ],
+              "priceMultiplier": 0.2,
+              "sell": {
+                "functions": [
+                  {
+                    "decoration": "minecraft:village_savanna",
+                    "destination": "minecraft:on_savanna_village_maps",
+                    "function": "minecraft:exploration_map",
+                    "search_radius": 100
+                  },
+                  {
+                    "function": "minecraft:set_name",
+                    "name": {
+                      "translate": "filled_map.village_savanna"
+                    },
+                    "target": "item_name"
+                  }
+                ],
+                "items": "minecraft:map",
+                "result_predicates": [
+                  {
+                    "items": "minecraft:filled_map"
+                  }
+                ]
+              },
+              "xp": 5
+            },
+            {
+              "buy": {
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 8.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "items": "minecraft:emerald"
+              },
+              "buyB": {
+                "items": "minecraft:compass"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:swamp"
+                    }
+                  }
+                }
+              ],
+              "priceMultiplier": 0.2,
+              "sell": {
+                "functions": [
+                  {
+                    "decoration": "minecraft:village_snowy",
+                    "destination": "minecraft:on_snowy_village_maps",
+                    "function": "minecraft:exploration_map",
+                    "search_radius": 100
+                  },
+                  {
+                    "function": "minecraft:set_name",
+                    "name": {
+                      "translate": "filled_map.village_snowy"
+                    },
+                    "target": "item_name"
+                  }
+                ],
+                "items": "minecraft:map",
+                "result_predicates": [
+                  {
+                    "items": "minecraft:filled_map"
+                  }
+                ]
+              },
+              "xp": 5
+            }
+          ]
+        },
+        {
+          "type": "databrokers:alternatives",
+          "children": [
+            {
+              "buy": {
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 8.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "items": "minecraft:emerald"
+              },
+              "buyB": {
+                "items": "minecraft:compass"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:desert"
+                    }
+                  }
+                }
+              ],
+              "priceMultiplier": 0.2,
+              "sell": {
+                "functions": [
+                  {
+                    "decoration": "minecraft:village_plains",
+                    "destination": "minecraft:on_plains_village_maps",
+                    "function": "minecraft:exploration_map",
+                    "search_radius": 100
+                  },
+                  {
+                    "function": "minecraft:set_name",
+                    "name": {
+                      "translate": "filled_map.village_plains"
+                    },
+                    "target": "item_name"
+                  }
+                ],
+                "items": "minecraft:map",
+                "result_predicates": [
+                  {
+                    "items": "minecraft:filled_map"
+                  }
+                ]
+              },
+              "xp": 5
+            },
+            {
+              "buy": {
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 8.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "items": "minecraft:emerald"
+              },
+              "buyB": {
+                "items": "minecraft:compass"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:savanna"
+                    }
+                  }
+                }
+              ],
+              "priceMultiplier": 0.2,
+              "sell": {
+                "functions": [
+                  {
+                    "decoration": "minecraft:village_desert",
+                    "destination": "minecraft:on_desert_village_maps",
+                    "function": "minecraft:exploration_map",
+                    "search_radius": 100
+                  },
+                  {
+                    "function": "minecraft:set_name",
+                    "name": {
+                      "translate": "filled_map.village_desert"
+                    },
+                    "target": "item_name"
+                  }
+                ],
+                "items": "minecraft:map",
+                "result_predicates": [
+                  {
+                    "items": "minecraft:filled_map"
+                  }
+                ]
+              },
+              "xp": 5
+            },
+            {
+              "buy": {
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 8.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "items": "minecraft:emerald"
+              },
+              "buyB": {
+                "items": "minecraft:compass"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:plains"
+                    }
+                  }
+                }
+              ],
+              "priceMultiplier": 0.2,
+              "sell": {
+                "functions": [
+                  {
+                    "decoration": "minecraft:village_savanna",
+                    "destination": "minecraft:on_savanna_village_maps",
+                    "function": "minecraft:exploration_map",
+                    "search_radius": 100
+                  },
+                  {
+                    "function": "minecraft:set_name",
+                    "name": {
+                      "translate": "filled_map.village_savanna"
+                    },
+                    "target": "item_name"
+                  }
+                ],
+                "items": "minecraft:map",
+                "result_predicates": [
+                  {
+                    "items": "minecraft:filled_map"
+                  }
+                ]
+              },
+              "xp": 5
+            },
+            {
+              "buy": {
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 8.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "items": "minecraft:emerald"
+              },
+              "buyB": {
+                "items": "minecraft:compass"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:taiga"
+                    }
+                  }
+                }
+              ],
+              "priceMultiplier": 0.2,
+              "sell": {
+                "functions": [
+                  {
+                    "decoration": "minecraft:village_plains",
+                    "destination": "minecraft:on_plains_village_maps",
+                    "function": "minecraft:exploration_map",
+                    "search_radius": 100
+                  },
+                  {
+                    "function": "minecraft:set_name",
+                    "name": {
+                      "translate": "filled_map.village_plains"
+                    },
+                    "target": "item_name"
+                  }
+                ],
+                "items": "minecraft:map",
+                "result_predicates": [
+                  {
+                    "items": "minecraft:filled_map"
+                  }
+                ]
+              },
+              "xp": 5
+            },
+            {
+              "buy": {
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 8.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "items": "minecraft:emerald"
+              },
+              "buyB": {
+                "items": "minecraft:compass"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:snow"
+                    }
+                  }
+                }
+              ],
+              "priceMultiplier": 0.2,
+              "sell": {
+                "functions": [
+                  {
+                    "decoration": "minecraft:village_taiga",
+                    "destination": "minecraft:on_taiga_village_maps",
+                    "function": "minecraft:exploration_map",
+                    "search_radius": 100
+                  },
+                  {
+                    "function": "minecraft:set_name",
+                    "name": {
+                      "translate": "filled_map.village_taiga"
+                    },
+                    "target": "item_name"
+                  }
+                ],
+                "items": "minecraft:map",
+                "result_predicates": [
+                  {
+                    "items": "minecraft:filled_map"
+                  }
+                ]
+              },
+              "xp": 5
+            },
+            {
+              "buy": {
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 8.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "items": "minecraft:emerald"
+              },
+              "buyB": {
+                "items": "minecraft:compass"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:jungle"
+                    }
+                  }
+                }
+              ],
+              "priceMultiplier": 0.2,
+              "sell": {
+                "functions": [
+                  {
+                    "decoration": "minecraft:village_desert",
+                    "destination": "minecraft:on_desert_village_maps",
+                    "function": "minecraft:exploration_map",
+                    "search_radius": 100
+                  },
+                  {
+                    "function": "minecraft:set_name",
+                    "name": {
+                      "translate": "filled_map.village_desert"
+                    },
+                    "target": "item_name"
+                  }
+                ],
+                "items": "minecraft:map",
+                "result_predicates": [
+                  {
+                    "items": "minecraft:filled_map"
+                  }
+                ]
+              },
+              "xp": 5
+            },
+            {
+              "buy": {
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 8.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "items": "minecraft:emerald"
+              },
+              "buyB": {
+                "items": "minecraft:compass"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:swamp"
+                    }
+                  }
+                }
+              ],
+              "priceMultiplier": 0.2,
+              "sell": {
+                "functions": [
+                  {
+                    "decoration": "minecraft:village_taiga",
+                    "destination": "minecraft:on_taiga_village_maps",
+                    "function": "minecraft:exploration_map",
+                    "search_radius": 100
+                  },
+                  {
+                    "function": "minecraft:set_name",
+                    "name": {
+                      "translate": "filled_map.village_taiga"
+                    },
+                    "target": "item_name"
+                  }
+                ],
+                "items": "minecraft:map",
+                "result_predicates": [
+                  {
+                    "items": "minecraft:filled_map"
+                  }
+                ]
+              },
+              "xp": 5
+            }
+          ]
+        },
+        {
+          "type": "databrokers:alternatives",
+          "children": [
+            {
+              "buy": {
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 8.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "items": "minecraft:emerald"
+              },
+              "buyB": {
+                "items": "minecraft:compass"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:desert"
+                    }
+                  }
+                }
+              ],
+              "priceMultiplier": 0.2,
+              "sell": {
+                "functions": [
+                  {
+                    "decoration": "minecraft:jungle_temple",
+                    "destination": "minecraft:on_jungle_explorer_maps",
+                    "function": "minecraft:exploration_map",
+                    "search_radius": 100
+                  },
+                  {
+                    "function": "minecraft:set_name",
+                    "name": {
+                      "translate": "filled_map.explorer_jungle"
+                    },
+                    "target": "item_name"
+                  }
+                ],
+                "items": "minecraft:map",
+                "result_predicates": [
+                  {
+                    "items": "minecraft:filled_map"
+                  }
+                ]
+              },
+              "xp": 5
+            },
+            {
+              "buy": {
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 8.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "items": "minecraft:emerald"
+              },
+              "buyB": {
+                "items": "minecraft:compass"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:savanna"
+                    }
+                  }
+                }
+              ],
+              "priceMultiplier": 0.2,
+              "sell": {
+                "functions": [
+                  {
+                    "decoration": "minecraft:jungle_temple",
+                    "destination": "minecraft:on_jungle_explorer_maps",
+                    "function": "minecraft:exploration_map",
+                    "search_radius": 100
+                  },
+                  {
+                    "function": "minecraft:set_name",
+                    "name": {
+                      "translate": "filled_map.explorer_jungle"
+                    },
+                    "target": "item_name"
+                  }
+                ],
+                "items": "minecraft:map",
+                "result_predicates": [
+                  {
+                    "items": "minecraft:filled_map"
+                  }
+                ]
+              },
+              "xp": 5
+            },
+            {
+              "type": "databrokers:empty",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:plains"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "buy": {
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 8.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "items": "minecraft:emerald"
+              },
+              "buyB": {
+                "items": "minecraft:compass"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:taiga"
+                    }
+                  }
+                }
+              ],
+              "priceMultiplier": 0.2,
+              "sell": {
+                "functions": [
+                  {
+                    "decoration": "minecraft:swamp_hut",
+                    "destination": "minecraft:on_swamp_explorer_maps",
+                    "function": "minecraft:exploration_map",
+                    "search_radius": 100
+                  },
+                  {
+                    "function": "minecraft:set_name",
+                    "name": {
+                      "translate": "filled_map.explorer_swamp"
+                    },
+                    "target": "item_name"
+                  }
+                ],
+                "items": "minecraft:map",
+                "result_predicates": [
+                  {
+                    "items": "minecraft:filled_map"
+                  }
+                ]
+              },
+              "xp": 5
+            },
+            {
+              "buy": {
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 8.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "items": "minecraft:emerald"
+              },
+              "buyB": {
+                "items": "minecraft:compass"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:snow"
+                    }
+                  }
+                }
+              ],
+              "priceMultiplier": 0.2,
+              "sell": {
+                "functions": [
+                  {
+                    "decoration": "minecraft:swamp_hut",
+                    "destination": "minecraft:on_swamp_explorer_maps",
+                    "function": "minecraft:exploration_map",
+                    "search_radius": 100
+                  },
+                  {
+                    "function": "minecraft:set_name",
+                    "name": {
+                      "translate": "filled_map.explorer_swamp"
+                    },
+                    "target": "item_name"
+                  }
+                ],
+                "items": "minecraft:map",
+                "result_predicates": [
+                  {
+                    "items": "minecraft:filled_map"
+                  }
+                ]
+              },
+              "xp": 5
+            },
+            {
+              "buy": {
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 8.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "items": "minecraft:emerald"
+              },
+              "buyB": {
+                "items": "minecraft:compass"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:jungle"
+                    }
+                  }
+                }
+              ],
+              "priceMultiplier": 0.2,
+              "sell": {
+                "functions": [
+                  {
+                    "decoration": "minecraft:swamp_hut",
+                    "destination": "minecraft:on_swamp_explorer_maps",
+                    "function": "minecraft:exploration_map",
+                    "search_radius": 100
+                  },
+                  {
+                    "function": "minecraft:set_name",
+                    "name": {
+                      "translate": "filled_map.explorer_swamp"
+                    },
+                    "target": "item_name"
+                  }
+                ],
+                "items": "minecraft:map",
+                "result_predicates": [
+                  {
+                    "items": "minecraft:filled_map"
+                  }
+                ]
+              },
+              "xp": 5
+            },
+            {
+              "buy": {
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 8.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "items": "minecraft:emerald"
+              },
+              "buyB": {
+                "items": "minecraft:compass"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:swamp"
+                    }
+                  }
+                }
+              ],
+              "priceMultiplier": 0.2,
+              "sell": {
+                "functions": [
+                  {
+                    "decoration": "minecraft:jungle_temple",
+                    "destination": "minecraft:on_jungle_explorer_maps",
+                    "function": "minecraft:exploration_map",
+                    "search_radius": 100
+                  },
+                  {
+                    "function": "minecraft:set_name",
+                    "name": {
+                      "translate": "filled_map.explorer_jungle"
+                    },
+                    "target": "item_name"
+                  }
+                ],
+                "items": "minecraft:map",
+                "result_predicates": [
+                  {
+                    "items": "minecraft:filled_map"
+                  }
+                ]
+              },
+              "xp": 5
+            }
+          ]
+        }
+      ],
+      "rolls": 2.0
+    }
+  ]
+}

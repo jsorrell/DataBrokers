@@ -1,0 +1,41 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 15.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:coal"
+          },
+          "sell": {
+            "items": "minecraft:emerald"
+          },
+          "xp": 2
+        },
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 5.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:iron_ingot"
+          },
+          "sell": {
+            "items": "minecraft:emerald"
+          },
+          "xp": 2
+        }
+      ],
+      "rolls": 2.0
+    }
+  ]
+}

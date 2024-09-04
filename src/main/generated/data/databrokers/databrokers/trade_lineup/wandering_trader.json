@@ -1,0 +1,945 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 2.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:emerald"
+          },
+          "maxUses": 5,
+          "sell": {
+            "items": "minecraft:sea_pickle"
+          }
+        },
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 4.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:emerald"
+          },
+          "maxUses": 5,
+          "sell": {
+            "items": "minecraft:slime_ball"
+          }
+        },
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 2.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:emerald"
+          },
+          "maxUses": 5,
+          "sell": {
+            "items": "minecraft:glowstone"
+          }
+        },
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 5.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:emerald"
+          },
+          "maxUses": 5,
+          "sell": {
+            "items": "minecraft:nautilus_shell"
+          }
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "items": "minecraft:fern"
+          }
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "maxUses": 8,
+          "sell": {
+            "items": "minecraft:sugar_cane"
+          }
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "maxUses": 4,
+          "sell": {
+            "items": "minecraft:pumpkin"
+          }
+        },
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 3.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "items": "minecraft:kelp"
+          }
+        },
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 3.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:emerald"
+          },
+          "maxUses": 8,
+          "sell": {
+            "items": "minecraft:cactus"
+          }
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "items": "minecraft:dandelion"
+          }
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "items": "minecraft:poppy"
+          }
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "maxUses": 8,
+          "sell": {
+            "items": "minecraft:blue_orchid"
+          }
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "items": "minecraft:allium"
+          }
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "items": "minecraft:azure_bluet"
+          }
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "items": "minecraft:red_tulip"
+          }
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "items": "minecraft:orange_tulip"
+          }
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "items": "minecraft:white_tulip"
+          }
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "items": "minecraft:pink_tulip"
+          }
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "items": "minecraft:oxeye_daisy"
+          }
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "items": "minecraft:cornflower"
+          }
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "maxUses": 7,
+          "sell": {
+            "items": "minecraft:lily_of_the_valley"
+          }
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "items": "minecraft:wheat_seeds"
+          }
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "items": "minecraft:beetroot_seeds"
+          }
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "items": "minecraft:pumpkin_seeds"
+          }
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "items": "minecraft:melon_seeds"
+          }
+        },
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 5.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:emerald"
+          },
+          "maxUses": 8,
+          "sell": {
+            "items": "minecraft:acacia_sapling"
+          }
+        },
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 5.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:emerald"
+          },
+          "maxUses": 8,
+          "sell": {
+            "items": "minecraft:birch_sapling"
+          }
+        },
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 5.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:emerald"
+          },
+          "maxUses": 8,
+          "sell": {
+            "items": "minecraft:dark_oak_sapling"
+          }
+        },
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 5.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:emerald"
+          },
+          "maxUses": 8,
+          "sell": {
+            "items": "minecraft:jungle_sapling"
+          }
+        },
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 5.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:emerald"
+          },
+          "maxUses": 8,
+          "sell": {
+            "items": "minecraft:oak_sapling"
+          }
+        },
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 5.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:emerald"
+          },
+          "maxUses": 8,
+          "sell": {
+            "items": "minecraft:spruce_sapling"
+          }
+        },
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 5.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:emerald"
+          },
+          "maxUses": 8,
+          "sell": {
+            "items": "minecraft:cherry_sapling"
+          }
+        },
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 5.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:emerald"
+          },
+          "maxUses": 8,
+          "sell": {
+            "items": "minecraft:mangrove_propagule"
+          }
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "functions": [
+              {
+                "add": false,
+                "count": 3.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:red_dye"
+          }
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "functions": [
+              {
+                "add": false,
+                "count": 3.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:white_dye"
+          }
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "functions": [
+              {
+                "add": false,
+                "count": 3.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:blue_dye"
+          }
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "functions": [
+              {
+                "add": false,
+                "count": 3.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:pink_dye"
+          }
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "functions": [
+              {
+                "add": false,
+                "count": 3.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:black_dye"
+          }
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "functions": [
+              {
+                "add": false,
+                "count": 3.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:green_dye"
+          }
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "functions": [
+              {
+                "add": false,
+                "count": 3.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:light_gray_dye"
+          }
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "functions": [
+              {
+                "add": false,
+                "count": 3.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:magenta_dye"
+          }
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "functions": [
+              {
+                "add": false,
+                "count": 3.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:yellow_dye"
+          }
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "functions": [
+              {
+                "add": false,
+                "count": 3.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:gray_dye"
+          }
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "functions": [
+              {
+                "add": false,
+                "count": 3.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:purple_dye"
+          }
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "functions": [
+              {
+                "add": false,
+                "count": 3.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:light_blue_dye"
+          }
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "functions": [
+              {
+                "add": false,
+                "count": 3.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:lime_dye"
+          }
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "functions": [
+              {
+                "add": false,
+                "count": 3.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:orange_dye"
+          }
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "functions": [
+              {
+                "add": false,
+                "count": 3.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:brown_dye"
+          }
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "functions": [
+              {
+                "add": false,
+                "count": 3.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:cyan_dye"
+          }
+        },
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 3.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:emerald"
+          },
+          "maxUses": 8,
+          "sell": {
+            "items": "minecraft:brain_coral_block"
+          }
+        },
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 3.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:emerald"
+          },
+          "maxUses": 8,
+          "sell": {
+            "items": "minecraft:bubble_coral_block"
+          }
+        },
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 3.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:emerald"
+          },
+          "maxUses": 8,
+          "sell": {
+            "items": "minecraft:fire_coral_block"
+          }
+        },
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 3.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:emerald"
+          },
+          "maxUses": 8,
+          "sell": {
+            "items": "minecraft:horn_coral_block"
+          }
+        },
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 3.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:emerald"
+          },
+          "maxUses": 8,
+          "sell": {
+            "items": "minecraft:tube_coral_block"
+          }
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "items": "minecraft:vine"
+          }
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "items": "minecraft:brown_mushroom"
+          }
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "items": "minecraft:red_mushroom"
+          }
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "maxUses": 5,
+          "sell": {
+            "functions": [
+              {
+                "add": false,
+                "count": 2.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:lily_pad"
+          }
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "maxUses": 5,
+          "sell": {
+            "functions": [
+              {
+                "add": false,
+                "count": 2.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:small_dripleaf"
+          }
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "maxUses": 8,
+          "sell": {
+            "functions": [
+              {
+                "add": false,
+                "count": 8.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:sand"
+          }
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "maxUses": 6,
+          "sell": {
+            "functions": [
+              {
+                "add": false,
+                "count": 4.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:red_sand"
+          }
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "maxUses": 5,
+          "sell": {
+            "functions": [
+              {
+                "add": false,
+                "count": 2.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:pointed_dripstone"
+          }
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "maxUses": 5,
+          "sell": {
+            "functions": [
+              {
+                "add": false,
+                "count": 2.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:rooted_dirt"
+          }
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "maxUses": 5,
+          "sell": {
+            "functions": [
+              {
+                "add": false,
+                "count": 2.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:moss_block"
+          }
+        }
+      ],
+      "rolls": 5.0
+    },
+    {
+      "entries": [
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 5.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:emerald"
+          },
+          "maxUses": 4,
+          "sell": {
+            "items": "minecraft:tropical_fish_bucket"
+          }
+        },
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 5.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:emerald"
+          },
+          "maxUses": 4,
+          "sell": {
+            "items": "minecraft:pufferfish_bucket"
+          }
+        },
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 3.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:emerald"
+          },
+          "maxUses": 6,
+          "sell": {
+            "items": "minecraft:packed_ice"
+          }
+        },
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 6.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:emerald"
+          },
+          "maxUses": 6,
+          "sell": {
+            "items": "minecraft:blue_ice"
+          }
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "maxUses": 8,
+          "sell": {
+            "items": "minecraft:gunpowder"
+          }
+        },
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 3.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:emerald"
+          },
+          "maxUses": 6,
+          "sell": {
+            "functions": [
+              {
+                "add": false,
+                "count": 3.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:podzol"
+          }
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

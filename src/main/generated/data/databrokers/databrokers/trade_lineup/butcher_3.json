@@ -1,0 +1,43 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 7.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:mutton"
+          },
+          "maxUses": 16,
+          "sell": {
+            "items": "minecraft:emerald"
+          },
+          "xp": 20
+        },
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 10.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:beef"
+          },
+          "maxUses": 16,
+          "sell": {
+            "items": "minecraft:emerald"
+          },
+          "xp": 20
+        }
+      ],
+      "rolls": 2.0
+    }
+  ]
+}

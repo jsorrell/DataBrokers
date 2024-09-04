@@ -1,0 +1,48 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 3.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "functions": [
+              {
+                "add": false,
+                "count": 18.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:cookie"
+          },
+          "xp": 10
+        },
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 4.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:melon"
+          },
+          "sell": {
+            "items": "minecraft:emerald"
+          },
+          "xp": 20
+        }
+      ],
+      "rolls": 2.0
+    }
+  ]
+}

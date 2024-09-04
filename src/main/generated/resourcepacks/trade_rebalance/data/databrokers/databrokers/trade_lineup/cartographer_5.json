@@ -1,0 +1,65 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 8.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "items": "minecraft:globe_banner_pattern"
+          },
+          "xp": 30
+        },
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 14.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:emerald"
+          },
+          "buyB": {
+            "items": "minecraft:compass"
+          },
+          "maxUses": 1,
+          "priceMultiplier": 0.2,
+          "sell": {
+            "functions": [
+              {
+                "destination": "minecraft:on_woodland_explorer_maps",
+                "function": "minecraft:exploration_map",
+                "search_radius": 100
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "translate": "filled_map.mansion"
+                },
+                "target": "item_name"
+              }
+            ],
+            "items": "minecraft:map",
+            "result_predicates": [
+              {
+                "items": "minecraft:filled_map"
+              }
+            ]
+          },
+          "xp": 30
+        }
+      ],
+      "rolls": 2.0
+    }
+  ]
+}

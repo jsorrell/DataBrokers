@@ -1,0 +1,69 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 4.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:iron_ingot"
+          },
+          "sell": {
+            "items": "minecraft:emerald"
+          },
+          "xp": 10
+        },
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 36.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:emerald"
+          },
+          "priceMultiplier": 0.2,
+          "sell": {
+            "items": "minecraft:bell"
+          },
+          "xp": 5
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "priceMultiplier": 0.2,
+          "sell": {
+            "items": "minecraft:chainmail_boots"
+          },
+          "xp": 5
+        },
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 3.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:emerald"
+          },
+          "priceMultiplier": 0.2,
+          "sell": {
+            "items": "minecraft:chainmail_leggings"
+          },
+          "xp": 5
+        }
+      ],
+      "rolls": 2.0
+    }
+  ]
+}

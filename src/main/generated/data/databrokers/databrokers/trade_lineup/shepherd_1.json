@@ -1,0 +1,92 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 18.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:white_wool"
+          },
+          "maxUses": 16,
+          "sell": {
+            "items": "minecraft:emerald"
+          },
+          "xp": 2
+        },
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 18.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:brown_wool"
+          },
+          "maxUses": 16,
+          "sell": {
+            "items": "minecraft:emerald"
+          },
+          "xp": 2
+        },
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 18.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:black_wool"
+          },
+          "maxUses": 16,
+          "sell": {
+            "items": "minecraft:emerald"
+          },
+          "xp": 2
+        },
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 18.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:gray_wool"
+          },
+          "maxUses": 16,
+          "sell": {
+            "items": "minecraft:emerald"
+          },
+          "xp": 2
+        },
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 2.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "items": "minecraft:shears"
+          }
+        }
+      ],
+      "rolls": 2.0
+    }
+  ]
+}

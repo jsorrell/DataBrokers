@@ -1,0 +1,58 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 6.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:pumpkin"
+          },
+          "sell": {
+            "items": "minecraft:emerald"
+          },
+          "xp": 10
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "functions": [
+              {
+                "add": false,
+                "count": 4.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:pumpkin_pie"
+          },
+          "xp": 5
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "maxUses": 16,
+          "sell": {
+            "functions": [
+              {
+                "add": false,
+                "count": 4.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:apple"
+          },
+          "xp": 5
+        }
+      ],
+      "rolls": 2.0
+    }
+  ]
+}

@@ -1,0 +1,313 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 12.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:quartz"
+          },
+          "sell": {
+            "items": "minecraft:emerald"
+          },
+          "xp": 30
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "items": "minecraft:orange_terracotta"
+          },
+          "xp": 15
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "items": "minecraft:white_terracotta"
+          },
+          "xp": 15
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "items": "minecraft:blue_terracotta"
+          },
+          "xp": 15
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "items": "minecraft:light_blue_terracotta"
+          },
+          "xp": 15
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "items": "minecraft:gray_terracotta"
+          },
+          "xp": 15
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "items": "minecraft:light_gray_terracotta"
+          },
+          "xp": 15
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "items": "minecraft:black_terracotta"
+          },
+          "xp": 15
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "items": "minecraft:red_terracotta"
+          },
+          "xp": 15
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "items": "minecraft:pink_terracotta"
+          },
+          "xp": 15
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "items": "minecraft:magenta_terracotta"
+          },
+          "xp": 15
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "items": "minecraft:lime_terracotta"
+          },
+          "xp": 15
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "items": "minecraft:green_terracotta"
+          },
+          "xp": 15
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "items": "minecraft:cyan_terracotta"
+          },
+          "xp": 15
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "items": "minecraft:purple_terracotta"
+          },
+          "xp": 15
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "items": "minecraft:yellow_terracotta"
+          },
+          "xp": 15
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "items": "minecraft:brown_terracotta"
+          },
+          "xp": 15
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "items": "minecraft:orange_glazed_terracotta"
+          },
+          "xp": 15
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "items": "minecraft:white_glazed_terracotta"
+          },
+          "xp": 15
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "items": "minecraft:blue_glazed_terracotta"
+          },
+          "xp": 15
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "items": "minecraft:light_blue_glazed_terracotta"
+          },
+          "xp": 15
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "items": "minecraft:gray_glazed_terracotta"
+          },
+          "xp": 15
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "items": "minecraft:light_gray_glazed_terracotta"
+          },
+          "xp": 15
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "items": "minecraft:black_glazed_terracotta"
+          },
+          "xp": 15
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "items": "minecraft:red_glazed_terracotta"
+          },
+          "xp": 15
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "items": "minecraft:pink_glazed_terracotta"
+          },
+          "xp": 15
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "items": "minecraft:magenta_glazed_terracotta"
+          },
+          "xp": 15
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "items": "minecraft:lime_glazed_terracotta"
+          },
+          "xp": 15
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "items": "minecraft:green_glazed_terracotta"
+          },
+          "xp": 15
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "items": "minecraft:cyan_glazed_terracotta"
+          },
+          "xp": 15
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "items": "minecraft:purple_glazed_terracotta"
+          },
+          "xp": 15
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "items": "minecraft:yellow_glazed_terracotta"
+          },
+          "xp": 15
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "items": "minecraft:brown_glazed_terracotta"
+          },
+          "xp": 15
+        }
+      ],
+      "rolls": 2.0
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 14.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:chicken"
+          },
+          "maxUses": 16,
+          "sell": {
+            "items": "minecraft:emerald"
+          },
+          "xp": 2
+        },
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 7.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:porkchop"
+          },
+          "maxUses": 16,
+          "sell": {
+            "items": "minecraft:emerald"
+          },
+          "xp": 2
+        },
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 4.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:rabbit"
+          },
+          "maxUses": 16,
+          "sell": {
+            "items": "minecraft:emerald"
+          },
+          "xp": 2
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "items": "minecraft:rabbit_stew"
+          }
+        }
+      ],
+      "rolls": 2.0
+    }
+  ]
+}

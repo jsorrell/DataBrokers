@@ -1,0 +1,57 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 2.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:writable_book"
+          },
+          "sell": {
+            "items": "minecraft:emerald"
+          },
+          "xp": 30
+        },
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 5.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "items": "minecraft:clock"
+          },
+          "xp": 15
+        },
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 4.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "items": "minecraft:compass"
+          },
+          "xp": 15
+        }
+      ],
+      "rolls": 2.0
+    }
+  ]
+}

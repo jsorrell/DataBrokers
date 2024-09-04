@@ -1,0 +1,23 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.jsorrell.databrokers.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "VillagerMixin",
+    "VillagerTradesMixin$DyedArmorForEmeraldsAccessor",
+    "VillagerTradesMixin$EmeraldForItemsAccessor",
+    "VillagerTradesMixin$EmeraldsForVillagerTypeItemAccessor",
+    "VillagerTradesMixin$EnchantBookForEmeraldsAccessor",
+    "VillagerTradesMixin$EnchantedItemForEmeraldsAccessor",
+    "VillagerTradesMixin$ItemsAndEmeraldsToItemsAccessor",
+    "VillagerTradesMixin$ItemsForEmeraldsAccessor",
+    "VillagerTradesMixin$SuspiciousStewForEmeraldAccessor",
+    "VillagerTradesMixin$TippedArrowForItemsAndEmeraldsAccessor",
+    "VillagerTradesMixin$TreasureMapForEmeraldsAccessor",
+    "WanderingTraderMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

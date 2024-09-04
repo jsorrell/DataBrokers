@@ -1,0 +1,66 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 32.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:stick"
+          },
+          "maxUses": 16,
+          "sell": {
+            "items": "minecraft:emerald"
+          },
+          "xp": 2
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "functions": [
+              {
+                "add": false,
+                "count": 16.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:arrow"
+          }
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "buyB": {
+            "functions": [
+              {
+                "add": false,
+                "count": 10.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:gravel"
+          },
+          "sell": {
+            "functions": [
+              {
+                "add": false,
+                "count": 10.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:flint"
+          }
+        }
+      ],
+      "rolls": 2.0
+    }
+  ]
+}

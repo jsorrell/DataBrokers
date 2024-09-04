@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "databrokers",
+  "version": "${version}",
+  "name": "DataBrokers",
+  "description": "Make Trades Data-Driven",
+  "authors": [
+    "jsorrell"
+  ],
+  "contact": {
+    "repo": "https://github.com/jsorrell/DataBrokers"
+  },
+  "license": "MIT",
+  "icon": "assets/databrokers/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.jsorrell.databrokers.DataBrokers"
+    ],
+    "fabric-datagen": [
+      "com.jsorrell.databrokers.data.GeneratorEntrypoint"
+    ]
+  },
+  "mixins": [
+    "databrokers.mixins.json"
+  ],
+  "accessWidener": "databrokers.accesswidener",
+  "depends": {
+    "fabricloader": "*",
+    "minecraft": "${mc_compatibility}",
+    "fabric": "*"
+  }
+}

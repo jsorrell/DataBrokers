@@ -1,0 +1,32 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 2.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "functions": [
+              {
+                "add": false,
+                "count": 3.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:painting"
+          },
+          "xp": 30
+        }
+      ],
+      "rolls": 2.0
+    }
+  ]
+}

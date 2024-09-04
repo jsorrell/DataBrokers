@@ -1,0 +1,177 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 4.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:pufferfish"
+          },
+          "sell": {
+            "items": "minecraft:emerald"
+          },
+          "xp": 30
+        },
+        {
+          "type": "databrokers:alternatives",
+          "children": [
+            {
+              "buy": {
+                "items": "minecraft:oak_boat"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:plains"
+                    }
+                  }
+                }
+              ],
+              "sell": {
+                "items": "minecraft:emerald"
+              },
+              "xp": 30
+            },
+            {
+              "buy": {
+                "items": "minecraft:spruce_boat"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:taiga"
+                    }
+                  }
+                }
+              ],
+              "sell": {
+                "items": "minecraft:emerald"
+              },
+              "xp": 30
+            },
+            {
+              "buy": {
+                "items": "minecraft:spruce_boat"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:snow"
+                    }
+                  }
+                }
+              ],
+              "sell": {
+                "items": "minecraft:emerald"
+              },
+              "xp": 30
+            },
+            {
+              "buy": {
+                "items": "minecraft:jungle_boat"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:desert"
+                    }
+                  }
+                }
+              ],
+              "sell": {
+                "items": "minecraft:emerald"
+              },
+              "xp": 30
+            },
+            {
+              "buy": {
+                "items": "minecraft:jungle_boat"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:jungle"
+                    }
+                  }
+                }
+              ],
+              "sell": {
+                "items": "minecraft:emerald"
+              },
+              "xp": 30
+            },
+            {
+              "buy": {
+                "items": "minecraft:acacia_boat"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:savanna"
+                    }
+                  }
+                }
+              ],
+              "sell": {
+                "items": "minecraft:emerald"
+              },
+              "xp": 30
+            },
+            {
+              "buy": {
+                "items": "minecraft:dark_oak_boat"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:swamp"
+                    }
+                  }
+                }
+              ],
+              "sell": {
+                "items": "minecraft:emerald"
+              },
+              "xp": 30
+            }
+          ]
+        }
+      ],
+      "rolls": 2.0
+    }
+  ]
+}

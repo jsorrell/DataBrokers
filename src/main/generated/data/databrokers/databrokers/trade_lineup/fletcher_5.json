@@ -1,0 +1,83 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 8.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:tripwire_hook"
+          },
+          "sell": {
+            "items": "minecraft:emerald"
+          },
+          "xp": 30
+        },
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 3.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:emerald"
+          },
+          "maxUses": 3,
+          "modifiers": [
+            {
+              "type": "databrokers:vanilla_enchant_item"
+            }
+          ],
+          "sell": {
+            "items": "minecraft:crossbow"
+          },
+          "xp": 15
+        },
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 2.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:emerald"
+          },
+          "buyB": {
+            "functions": [
+              {
+                "add": false,
+                "count": 5.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:arrow"
+          },
+          "sell": {
+            "functions": [
+              {
+                "add": false,
+                "count": 5.0,
+                "function": "minecraft:set_count"
+              },
+              {
+                "function": "databrokers:set_random_potion"
+              }
+            ],
+            "items": "minecraft:tipped_arrow"
+          },
+          "xp": 30
+        }
+      ],
+      "rolls": 2.0
+    }
+  ]
+}

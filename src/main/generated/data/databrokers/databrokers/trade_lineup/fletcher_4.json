@@ -1,0 +1,48 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 24.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:feather"
+          },
+          "maxUses": 16,
+          "sell": {
+            "items": "minecraft:emerald"
+          },
+          "xp": 30
+        },
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 2.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:emerald"
+          },
+          "maxUses": 3,
+          "modifiers": [
+            {
+              "type": "databrokers:vanilla_enchant_item"
+            }
+          ],
+          "sell": {
+            "items": "minecraft:bow"
+          },
+          "xp": 15
+        }
+      ],
+      "rolls": 2.0
+    }
+  ]
+}

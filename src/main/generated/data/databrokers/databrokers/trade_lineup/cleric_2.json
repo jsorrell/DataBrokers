@@ -1,0 +1,34 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 3.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:gold_ingot"
+          },
+          "sell": {
+            "items": "minecraft:emerald"
+          },
+          "xp": 10
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "items": "minecraft:lapis_lazuli"
+          },
+          "xp": 5
+        }
+      ],
+      "rolls": 2.0
+    }
+  ]
+}

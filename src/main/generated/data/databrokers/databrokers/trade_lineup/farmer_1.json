@@ -1,0 +1,93 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 20.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:wheat"
+          },
+          "maxUses": 16,
+          "sell": {
+            "items": "minecraft:emerald"
+          },
+          "xp": 2
+        },
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 26.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:potato"
+          },
+          "maxUses": 16,
+          "sell": {
+            "items": "minecraft:emerald"
+          },
+          "xp": 2
+        },
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 22.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:carrot"
+          },
+          "maxUses": 16,
+          "sell": {
+            "items": "minecraft:emerald"
+          },
+          "xp": 2
+        },
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 15.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:beetroot"
+          },
+          "maxUses": 16,
+          "sell": {
+            "items": "minecraft:emerald"
+          },
+          "xp": 2
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "maxUses": 16,
+          "sell": {
+            "functions": [
+              {
+                "add": false,
+                "count": 6.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:bread"
+          }
+        }
+      ],
+      "rolls": 2.0
+    }
+  ]
+}

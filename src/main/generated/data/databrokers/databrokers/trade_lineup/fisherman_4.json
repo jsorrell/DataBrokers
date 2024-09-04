@@ -1,0 +1,25 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 6.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:tropical_fish"
+          },
+          "sell": {
+            "items": "minecraft:emerald"
+          },
+          "xp": 30
+        }
+      ],
+      "rolls": 2.0
+    }
+  ]
+}

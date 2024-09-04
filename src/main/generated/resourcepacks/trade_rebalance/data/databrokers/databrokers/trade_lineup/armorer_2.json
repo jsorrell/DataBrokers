@@ -1,0 +1,833 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "databrokers:alternatives",
+          "children": [
+            {
+              "buy": {
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 4.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "items": "minecraft:emerald"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:plains"
+                    }
+                  }
+                }
+              ],
+              "sell": {
+                "items": "minecraft:iron_boots"
+              },
+              "xp": 5
+            },
+            {
+              "buy": {
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 4.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "items": "minecraft:emerald"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:savanna"
+                    }
+                  }
+                }
+              ],
+              "sell": {
+                "items": "minecraft:iron_boots"
+              },
+              "xp": 5
+            },
+            {
+              "buy": {
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 4.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "items": "minecraft:emerald"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:taiga"
+                    }
+                  }
+                }
+              ],
+              "sell": {
+                "items": "minecraft:iron_boots"
+              },
+              "xp": 5
+            },
+            {
+              "buy": {
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 4.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "items": "minecraft:emerald"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:snow"
+                    }
+                  }
+                }
+              ],
+              "sell": {
+                "items": "minecraft:iron_boots"
+              },
+              "xp": 5
+            },
+            {
+              "buy": {
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 4.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "items": "minecraft:emerald"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:desert"
+                    }
+                  }
+                }
+              ],
+              "sell": {
+                "items": "minecraft:iron_boots"
+              },
+              "xp": 5
+            }
+          ]
+        },
+        {
+          "type": "databrokers:alternatives",
+          "children": [
+            {
+              "buy": {
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 4.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "items": "minecraft:emerald"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:jungle"
+                    }
+                  }
+                }
+              ],
+              "sell": {
+                "items": "minecraft:chainmail_boots"
+              },
+              "xp": 5
+            },
+            {
+              "buy": {
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 4.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "items": "minecraft:emerald"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:swamp"
+                    }
+                  }
+                }
+              ],
+              "sell": {
+                "items": "minecraft:chainmail_boots"
+              },
+              "xp": 5
+            }
+          ]
+        },
+        {
+          "type": "databrokers:alternatives",
+          "children": [
+            {
+              "buy": {
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 5.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "items": "minecraft:emerald"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:plains"
+                    }
+                  }
+                }
+              ],
+              "sell": {
+                "items": "minecraft:iron_helmet"
+              },
+              "xp": 5
+            },
+            {
+              "buy": {
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 5.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "items": "minecraft:emerald"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:savanna"
+                    }
+                  }
+                }
+              ],
+              "sell": {
+                "items": "minecraft:iron_helmet"
+              },
+              "xp": 5
+            },
+            {
+              "buy": {
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 5.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "items": "minecraft:emerald"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:taiga"
+                    }
+                  }
+                }
+              ],
+              "sell": {
+                "items": "minecraft:iron_helmet"
+              },
+              "xp": 5
+            },
+            {
+              "buy": {
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 5.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "items": "minecraft:emerald"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:snow"
+                    }
+                  }
+                }
+              ],
+              "sell": {
+                "items": "minecraft:iron_helmet"
+              },
+              "xp": 5
+            },
+            {
+              "buy": {
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 5.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "items": "minecraft:emerald"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:desert"
+                    }
+                  }
+                }
+              ],
+              "sell": {
+                "items": "minecraft:iron_helmet"
+              },
+              "xp": 5
+            }
+          ]
+        },
+        {
+          "type": "databrokers:alternatives",
+          "children": [
+            {
+              "buy": {
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 5.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "items": "minecraft:emerald"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:jungle"
+                    }
+                  }
+                }
+              ],
+              "sell": {
+                "items": "minecraft:chainmail_helmet"
+              },
+              "xp": 5
+            },
+            {
+              "buy": {
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 5.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "items": "minecraft:emerald"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:swamp"
+                    }
+                  }
+                }
+              ],
+              "sell": {
+                "items": "minecraft:chainmail_helmet"
+              },
+              "xp": 5
+            }
+          ]
+        },
+        {
+          "type": "databrokers:alternatives",
+          "children": [
+            {
+              "buy": {
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 7.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "items": "minecraft:emerald"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:plains"
+                    }
+                  }
+                }
+              ],
+              "sell": {
+                "items": "minecraft:iron_leggings"
+              },
+              "xp": 5
+            },
+            {
+              "buy": {
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 7.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "items": "minecraft:emerald"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:savanna"
+                    }
+                  }
+                }
+              ],
+              "sell": {
+                "items": "minecraft:iron_leggings"
+              },
+              "xp": 5
+            },
+            {
+              "buy": {
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 7.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "items": "minecraft:emerald"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:taiga"
+                    }
+                  }
+                }
+              ],
+              "sell": {
+                "items": "minecraft:iron_leggings"
+              },
+              "xp": 5
+            },
+            {
+              "buy": {
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 7.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "items": "minecraft:emerald"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:snow"
+                    }
+                  }
+                }
+              ],
+              "sell": {
+                "items": "minecraft:iron_leggings"
+              },
+              "xp": 5
+            },
+            {
+              "buy": {
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 7.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "items": "minecraft:emerald"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:desert"
+                    }
+                  }
+                }
+              ],
+              "sell": {
+                "items": "minecraft:iron_leggings"
+              },
+              "xp": 5
+            }
+          ]
+        },
+        {
+          "type": "databrokers:alternatives",
+          "children": [
+            {
+              "buy": {
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 7.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "items": "minecraft:emerald"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:jungle"
+                    }
+                  }
+                }
+              ],
+              "sell": {
+                "items": "minecraft:chainmail_leggings"
+              },
+              "xp": 5
+            },
+            {
+              "buy": {
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 7.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "items": "minecraft:emerald"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:swamp"
+                    }
+                  }
+                }
+              ],
+              "sell": {
+                "items": "minecraft:chainmail_leggings"
+              },
+              "xp": 5
+            }
+          ]
+        },
+        {
+          "type": "databrokers:alternatives",
+          "children": [
+            {
+              "buy": {
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 9.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "items": "minecraft:emerald"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:plains"
+                    }
+                  }
+                }
+              ],
+              "sell": {
+                "items": "minecraft:iron_chestplate"
+              },
+              "xp": 5
+            },
+            {
+              "buy": {
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 9.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "items": "minecraft:emerald"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:savanna"
+                    }
+                  }
+                }
+              ],
+              "sell": {
+                "items": "minecraft:iron_chestplate"
+              },
+              "xp": 5
+            },
+            {
+              "buy": {
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 9.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "items": "minecraft:emerald"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:taiga"
+                    }
+                  }
+                }
+              ],
+              "sell": {
+                "items": "minecraft:iron_chestplate"
+              },
+              "xp": 5
+            },
+            {
+              "buy": {
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 9.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "items": "minecraft:emerald"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:snow"
+                    }
+                  }
+                }
+              ],
+              "sell": {
+                "items": "minecraft:iron_chestplate"
+              },
+              "xp": 5
+            },
+            {
+              "buy": {
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 9.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "items": "minecraft:emerald"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:desert"
+                    }
+                  }
+                }
+              ],
+              "sell": {
+                "items": "minecraft:iron_chestplate"
+              },
+              "xp": 5
+            }
+          ]
+        },
+        {
+          "type": "databrokers:alternatives",
+          "children": [
+            {
+              "buy": {
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 9.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "items": "minecraft:emerald"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:jungle"
+                    }
+                  }
+                }
+              ],
+              "sell": {
+                "items": "minecraft:chainmail_chestplate"
+              },
+              "xp": 5
+            },
+            {
+              "buy": {
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 9.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "items": "minecraft:emerald"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:swamp"
+                    }
+                  }
+                }
+              ],
+              "sell": {
+                "items": "minecraft:chainmail_chestplate"
+              },
+              "xp": 5
+            }
+          ]
+        }
+      ],
+      "rolls": 2.0
+    }
+  ]
+}

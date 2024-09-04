@@ -1,0 +1,41 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 32.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:rotten_flesh"
+          },
+          "maxUses": 16,
+          "sell": {
+            "items": "minecraft:emerald"
+          },
+          "xp": 2
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "functions": [
+              {
+                "add": false,
+                "count": 2.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:redstone"
+          }
+        }
+      ],
+      "rolls": 2.0
+    }
+  ]
+}

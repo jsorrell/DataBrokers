@@ -1,0 +1,256 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 24.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:paper"
+          },
+          "maxUses": 16,
+          "sell": {
+            "items": "minecraft:emerald"
+          },
+          "xp": 2
+        },
+        {
+          "type": "databrokers:alternatives",
+          "children": [
+            {
+              "buy": {
+                "items": "minecraft:emerald"
+              },
+              "buyB": {
+                "items": "minecraft:book"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:desert"
+                    }
+                  }
+                }
+              ],
+              "modifiers": [
+                {
+                  "type": "databrokers:vanilla_enchant_book",
+                  "enchantments": "#minecraft:trades/desert_common"
+                }
+              ],
+              "priceMultiplier": 0.2,
+              "sell": {
+                "items": "minecraft:enchanted_book"
+              }
+            },
+            {
+              "buy": {
+                "items": "minecraft:emerald"
+              },
+              "buyB": {
+                "items": "minecraft:book"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:jungle"
+                    }
+                  }
+                }
+              ],
+              "modifiers": [
+                {
+                  "type": "databrokers:vanilla_enchant_book",
+                  "enchantments": "#minecraft:trades/jungle_common"
+                }
+              ],
+              "priceMultiplier": 0.2,
+              "sell": {
+                "items": "minecraft:enchanted_book"
+              }
+            },
+            {
+              "buy": {
+                "items": "minecraft:emerald"
+              },
+              "buyB": {
+                "items": "minecraft:book"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:plains"
+                    }
+                  }
+                }
+              ],
+              "modifiers": [
+                {
+                  "type": "databrokers:vanilla_enchant_book",
+                  "enchantments": "#minecraft:trades/plains_common"
+                }
+              ],
+              "priceMultiplier": 0.2,
+              "sell": {
+                "items": "minecraft:enchanted_book"
+              }
+            },
+            {
+              "buy": {
+                "items": "minecraft:emerald"
+              },
+              "buyB": {
+                "items": "minecraft:book"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:savanna"
+                    }
+                  }
+                }
+              ],
+              "modifiers": [
+                {
+                  "type": "databrokers:vanilla_enchant_book",
+                  "enchantments": "#minecraft:trades/savanna_common"
+                }
+              ],
+              "priceMultiplier": 0.2,
+              "sell": {
+                "items": "minecraft:enchanted_book"
+              }
+            },
+            {
+              "buy": {
+                "items": "minecraft:emerald"
+              },
+              "buyB": {
+                "items": "minecraft:book"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:snow"
+                    }
+                  }
+                }
+              ],
+              "modifiers": [
+                {
+                  "type": "databrokers:vanilla_enchant_book",
+                  "enchantments": "#minecraft:trades/snow_common"
+                }
+              ],
+              "priceMultiplier": 0.2,
+              "sell": {
+                "items": "minecraft:enchanted_book"
+              }
+            },
+            {
+              "buy": {
+                "items": "minecraft:emerald"
+              },
+              "buyB": {
+                "items": "minecraft:book"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:swamp"
+                    }
+                  }
+                }
+              ],
+              "modifiers": [
+                {
+                  "type": "databrokers:vanilla_enchant_book",
+                  "enchantments": "#minecraft:trades/swamp_common"
+                }
+              ],
+              "priceMultiplier": 0.2,
+              "sell": {
+                "items": "minecraft:enchanted_book"
+              }
+            },
+            {
+              "buy": {
+                "items": "minecraft:emerald"
+              },
+              "buyB": {
+                "items": "minecraft:book"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:taiga"
+                    }
+                  }
+                }
+              ],
+              "modifiers": [
+                {
+                  "type": "databrokers:vanilla_enchant_book",
+                  "enchantments": "#minecraft:trades/taiga_common"
+                }
+              ],
+              "priceMultiplier": 0.2,
+              "sell": {
+                "items": "minecraft:enchanted_book"
+              }
+            }
+          ]
+        },
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 9.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "items": "minecraft:bookshelf"
+          }
+        }
+      ],
+      "rolls": 2.0
+    }
+  ]
+}

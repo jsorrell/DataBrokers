@@ -1,0 +1,8 @@
+{
+  "pack": {
+    "description": {
+      "translate": "dataPack.databrokers.trade_rebalance.description"
+    },
+    "pack_format": 48
+  }
+}

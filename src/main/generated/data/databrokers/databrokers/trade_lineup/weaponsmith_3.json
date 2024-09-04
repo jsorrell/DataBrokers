@@ -1,0 +1,25 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 24.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:flint"
+          },
+          "sell": {
+            "items": "minecraft:emerald"
+          },
+          "xp": 20
+        }
+      ],
+      "rolls": 2.0
+    }
+  ]
+}

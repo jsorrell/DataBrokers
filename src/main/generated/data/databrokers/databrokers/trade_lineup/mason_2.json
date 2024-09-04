@@ -1,0 +1,43 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 20.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:stone"
+          },
+          "maxUses": 16,
+          "sell": {
+            "items": "minecraft:emerald"
+          },
+          "xp": 10
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "maxUses": 16,
+          "sell": {
+            "functions": [
+              {
+                "add": false,
+                "count": 4.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:chiseled_stone_bricks"
+          },
+          "xp": 5
+        }
+      ],
+      "rolls": 2.0
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 8.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:emerald"
+          },
+          "maxUses": 3,
+          "modifiers": [
+            {
+              "type": "databrokers:vanilla_enchant_item"
+            }
+          ],
+          "priceMultiplier": 0.2,
+          "sell": {
+            "items": "minecraft:diamond_helmet"
+          },
+          "xp": 30
+        },
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 16.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:emerald"
+          },
+          "maxUses": 3,
+          "modifiers": [
+            {
+              "type": "databrokers:vanilla_enchant_item"
+            }
+          ],
+          "priceMultiplier": 0.2,
+          "sell": {
+            "items": "minecraft:diamond_chestplate"
+          },
+          "xp": 30
+        }
+      ],
+      "rolls": 2.0
+    }
+  ]
+}

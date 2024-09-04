@@ -1,0 +1,3 @@
+accessWidener	v2	named
+accessible method net/minecraft/world/item/trading/MerchantOffer <init> (Lnet/minecraft/world/item/trading/ItemCost;Ljava/util/Optional;Lnet/minecraft/world/item/ItemStack;IIZIIFI)V
+accessible class net/minecraft/world/entity/npc/VillagerTrades$FailureItemListing

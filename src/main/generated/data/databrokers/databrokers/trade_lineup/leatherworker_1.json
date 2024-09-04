@@ -1,0 +1,78 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 6.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:leather"
+          },
+          "maxUses": 16,
+          "sell": {
+            "items": "minecraft:emerald"
+          },
+          "xp": 2
+        },
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 3.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:emerald"
+          },
+          "priceMultiplier": 0.2,
+          "sell": {
+            "functions": [
+              {
+                "function": "databrokers:dye_randomly",
+                "weights": [
+                  56,
+                  38,
+                  6
+                ]
+              }
+            ],
+            "items": "minecraft:leather_leggings"
+          }
+        },
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 7.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:emerald"
+          },
+          "priceMultiplier": 0.2,
+          "sell": {
+            "functions": [
+              {
+                "function": "databrokers:dye_randomly",
+                "weights": [
+                  56,
+                  38,
+                  6
+                ]
+              }
+            ],
+            "items": "minecraft:leather_chestplate"
+          }
+        }
+      ],
+      "rolls": 2.0
+    }
+  ]
+}

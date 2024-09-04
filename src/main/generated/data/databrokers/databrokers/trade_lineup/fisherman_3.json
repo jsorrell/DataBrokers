@@ -1,0 +1,49 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 13.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:salmon"
+          },
+          "maxUses": 16,
+          "sell": {
+            "items": "minecraft:emerald"
+          },
+          "xp": 20
+        },
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 3.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:emerald"
+          },
+          "maxUses": 3,
+          "modifiers": [
+            {
+              "type": "databrokers:vanilla_enchant_item"
+            }
+          ],
+          "priceMultiplier": 0.2,
+          "sell": {
+            "items": "minecraft:fishing_rod"
+          },
+          "xp": 10
+        }
+      ],
+      "rolls": 2.0
+    }
+  ]
+}

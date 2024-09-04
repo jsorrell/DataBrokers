@@ -1,0 +1,79 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 26.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:flint"
+          },
+          "sell": {
+            "items": "minecraft:emerald"
+          },
+          "xp": 10
+        },
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 5.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:emerald"
+          },
+          "priceMultiplier": 0.2,
+          "sell": {
+            "functions": [
+              {
+                "function": "databrokers:dye_randomly",
+                "weights": [
+                  56,
+                  38,
+                  6
+                ]
+              }
+            ],
+            "items": "minecraft:leather_helmet"
+          },
+          "xp": 5
+        },
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 4.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:emerald"
+          },
+          "priceMultiplier": 0.2,
+          "sell": {
+            "functions": [
+              {
+                "function": "databrokers:dye_randomly",
+                "weights": [
+                  56,
+                  38,
+                  6
+                ]
+              }
+            ],
+            "items": "minecraft:leather_boots"
+          },
+          "xp": 5
+        }
+      ],
+      "rolls": 2.0
+    }
+  ]
+}

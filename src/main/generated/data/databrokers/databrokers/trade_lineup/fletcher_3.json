@@ -1,0 +1,42 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 14.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:string"
+          },
+          "maxUses": 16,
+          "sell": {
+            "items": "minecraft:emerald"
+          },
+          "xp": 20
+        },
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 3.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "items": "minecraft:crossbow"
+          },
+          "xp": 10
+        }
+      ],
+      "rolls": 2.0
+    }
+  ]
+}

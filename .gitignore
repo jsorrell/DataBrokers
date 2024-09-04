@@ -1,0 +1,25 @@
+# gradle
+.gradle/
+build/
+out/
+classes/
+src/main/generated/.cache/
+
+# idea
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# vscode
+.settings/
+.vscode/
+bin/
+.classpath
+.project
+
+# fabric
+run/
+remappedSrc/
+
+test-worlds/

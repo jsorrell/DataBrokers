@@ -1,0 +1,257 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "databrokers:alternatives",
+          "children": [
+            {
+              "buy": {
+                "items": "minecraft:emerald"
+              },
+              "buyB": {
+                "items": "minecraft:book"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:desert"
+                    }
+                  }
+                }
+              ],
+              "modifiers": [
+                {
+                  "type": "databrokers:vanilla_enchant_book",
+                  "enchantments": "#minecraft:trades/desert_special",
+                  "max_level": 3,
+                  "min_level": 3
+                }
+              ],
+              "priceMultiplier": 0.2,
+              "sell": {
+                "items": "minecraft:enchanted_book"
+              },
+              "xp": 30
+            },
+            {
+              "buy": {
+                "items": "minecraft:emerald"
+              },
+              "buyB": {
+                "items": "minecraft:book"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:jungle"
+                    }
+                  }
+                }
+              ],
+              "modifiers": [
+                {
+                  "type": "databrokers:vanilla_enchant_book",
+                  "enchantments": "#minecraft:trades/jungle_special",
+                  "max_level": 2,
+                  "min_level": 2
+                }
+              ],
+              "priceMultiplier": 0.2,
+              "sell": {
+                "items": "minecraft:enchanted_book"
+              },
+              "xp": 30
+            },
+            {
+              "buy": {
+                "items": "minecraft:emerald"
+              },
+              "buyB": {
+                "items": "minecraft:book"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:plains"
+                    }
+                  }
+                }
+              ],
+              "modifiers": [
+                {
+                  "type": "databrokers:vanilla_enchant_book",
+                  "enchantments": "#minecraft:trades/plains_special",
+                  "max_level": 3,
+                  "min_level": 3
+                }
+              ],
+              "priceMultiplier": 0.2,
+              "sell": {
+                "items": "minecraft:enchanted_book"
+              },
+              "xp": 30
+            },
+            {
+              "buy": {
+                "items": "minecraft:emerald"
+              },
+              "buyB": {
+                "items": "minecraft:book"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:savanna"
+                    }
+                  }
+                }
+              ],
+              "modifiers": [
+                {
+                  "type": "databrokers:vanilla_enchant_book",
+                  "enchantments": "#minecraft:trades/savanna_special",
+                  "max_level": 3,
+                  "min_level": 3
+                }
+              ],
+              "priceMultiplier": 0.2,
+              "sell": {
+                "items": "minecraft:enchanted_book"
+              },
+              "xp": 30
+            },
+            {
+              "buy": {
+                "items": "minecraft:emerald"
+              },
+              "buyB": {
+                "items": "minecraft:book"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:snow"
+                    }
+                  }
+                }
+              ],
+              "modifiers": [
+                {
+                  "type": "databrokers:vanilla_enchant_book",
+                  "enchantments": "#minecraft:trades/snow_special"
+                }
+              ],
+              "priceMultiplier": 0.2,
+              "sell": {
+                "items": "minecraft:enchanted_book"
+              },
+              "xp": 30
+            },
+            {
+              "buy": {
+                "items": "minecraft:emerald"
+              },
+              "buyB": {
+                "items": "minecraft:book"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:swamp"
+                    }
+                  }
+                }
+              ],
+              "modifiers": [
+                {
+                  "type": "databrokers:vanilla_enchant_book",
+                  "enchantments": "#minecraft:trades/swamp_special"
+                }
+              ],
+              "priceMultiplier": 0.2,
+              "sell": {
+                "items": "minecraft:enchanted_book"
+              },
+              "xp": 30
+            },
+            {
+              "buy": {
+                "items": "minecraft:emerald"
+              },
+              "buyB": {
+                "items": "minecraft:book"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:taiga"
+                    }
+                  }
+                }
+              ],
+              "modifiers": [
+                {
+                  "type": "databrokers:vanilla_enchant_book",
+                  "enchantments": "#minecraft:trades/taiga_special",
+                  "max_level": 2,
+                  "min_level": 2
+                }
+              ],
+              "priceMultiplier": 0.2,
+              "sell": {
+                "items": "minecraft:enchanted_book"
+              },
+              "xp": 30
+            }
+          ]
+        },
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 20.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "items": "minecraft:name_tag"
+          },
+          "xp": 30
+        }
+      ],
+      "rolls": 2.0
+    }
+  ]
+}

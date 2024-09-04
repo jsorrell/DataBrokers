@@ -1,0 +1,97 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "buy": {
+            "items": "minecraft:compass"
+          },
+          "sell": {
+            "items": "minecraft:emerald"
+          },
+          "xp": 20
+        },
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 14.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:emerald"
+          },
+          "buyB": {
+            "items": "minecraft:compass"
+          },
+          "priceMultiplier": 0.2,
+          "sell": {
+            "functions": [
+              {
+                "destination": "minecraft:on_woodland_explorer_maps",
+                "function": "minecraft:exploration_map",
+                "search_radius": 100
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "translate": "filled_map.mansion"
+                },
+                "target": "item_name"
+              }
+            ],
+            "items": "minecraft:map",
+            "result_predicates": [
+              {
+                "items": "minecraft:filled_map"
+              }
+            ]
+          },
+          "xp": 10
+        },
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 12.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:emerald"
+          },
+          "buyB": {
+            "items": "minecraft:compass"
+          },
+          "priceMultiplier": 0.2,
+          "sell": {
+            "functions": [
+              {
+                "decoration": "minecraft:trial_chambers",
+                "destination": "minecraft:on_trial_chambers_maps",
+                "function": "minecraft:exploration_map",
+                "search_radius": 100
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "translate": "filled_map.trial_chambers"
+                },
+                "target": "item_name"
+              }
+            ],
+            "items": "minecraft:map",
+            "result_predicates": [
+              {
+                "items": "minecraft:filled_map"
+              }
+            ]
+          },
+          "xp": 10
+        }
+      ],
+      "rolls": 2.0
+    }
+  ]
+}

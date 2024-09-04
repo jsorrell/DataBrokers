@@ -1,0 +1,52 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 4.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:turtle_scute"
+          },
+          "sell": {
+            "items": "minecraft:emerald"
+          },
+          "xp": 30
+        },
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 6.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:emerald"
+          },
+          "priceMultiplier": 0.2,
+          "sell": {
+            "functions": [
+              {
+                "function": "databrokers:dye_randomly",
+                "weights": [
+                  56,
+                  38,
+                  6
+                ]
+              }
+            ],
+            "items": "minecraft:leather_horse_armor"
+          },
+          "xp": 15
+        }
+      ],
+      "rolls": 2.0
+    }
+  ]
+}

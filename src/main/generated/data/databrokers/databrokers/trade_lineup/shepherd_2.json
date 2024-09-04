@@ -1,0 +1,526 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 12.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:white_dye"
+          },
+          "maxUses": 16,
+          "sell": {
+            "items": "minecraft:emerald"
+          },
+          "xp": 10
+        },
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 12.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:gray_dye"
+          },
+          "maxUses": 16,
+          "sell": {
+            "items": "minecraft:emerald"
+          },
+          "xp": 10
+        },
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 12.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:black_dye"
+          },
+          "maxUses": 16,
+          "sell": {
+            "items": "minecraft:emerald"
+          },
+          "xp": 10
+        },
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 12.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:light_blue_dye"
+          },
+          "maxUses": 16,
+          "sell": {
+            "items": "minecraft:emerald"
+          },
+          "xp": 10
+        },
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 12.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:lime_dye"
+          },
+          "maxUses": 16,
+          "sell": {
+            "items": "minecraft:emerald"
+          },
+          "xp": 10
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "maxUses": 16,
+          "sell": {
+            "items": "minecraft:white_wool"
+          },
+          "xp": 5
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "maxUses": 16,
+          "sell": {
+            "items": "minecraft:orange_wool"
+          },
+          "xp": 5
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "maxUses": 16,
+          "sell": {
+            "items": "minecraft:magenta_wool"
+          },
+          "xp": 5
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "maxUses": 16,
+          "sell": {
+            "items": "minecraft:light_blue_wool"
+          },
+          "xp": 5
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "maxUses": 16,
+          "sell": {
+            "items": "minecraft:yellow_wool"
+          },
+          "xp": 5
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "maxUses": 16,
+          "sell": {
+            "items": "minecraft:lime_wool"
+          },
+          "xp": 5
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "maxUses": 16,
+          "sell": {
+            "items": "minecraft:pink_wool"
+          },
+          "xp": 5
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "maxUses": 16,
+          "sell": {
+            "items": "minecraft:gray_wool"
+          },
+          "xp": 5
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "maxUses": 16,
+          "sell": {
+            "items": "minecraft:light_gray_wool"
+          },
+          "xp": 5
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "maxUses": 16,
+          "sell": {
+            "items": "minecraft:cyan_wool"
+          },
+          "xp": 5
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "maxUses": 16,
+          "sell": {
+            "items": "minecraft:purple_wool"
+          },
+          "xp": 5
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "maxUses": 16,
+          "sell": {
+            "items": "minecraft:blue_wool"
+          },
+          "xp": 5
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "maxUses": 16,
+          "sell": {
+            "items": "minecraft:brown_wool"
+          },
+          "xp": 5
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "maxUses": 16,
+          "sell": {
+            "items": "minecraft:green_wool"
+          },
+          "xp": 5
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "maxUses": 16,
+          "sell": {
+            "items": "minecraft:red_wool"
+          },
+          "xp": 5
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "maxUses": 16,
+          "sell": {
+            "items": "minecraft:black_wool"
+          },
+          "xp": 5
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "maxUses": 16,
+          "sell": {
+            "functions": [
+              {
+                "add": false,
+                "count": 4.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:white_carpet"
+          },
+          "xp": 5
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "maxUses": 16,
+          "sell": {
+            "functions": [
+              {
+                "add": false,
+                "count": 4.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:orange_carpet"
+          },
+          "xp": 5
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "maxUses": 16,
+          "sell": {
+            "functions": [
+              {
+                "add": false,
+                "count": 4.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:magenta_carpet"
+          },
+          "xp": 5
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "maxUses": 16,
+          "sell": {
+            "functions": [
+              {
+                "add": false,
+                "count": 4.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:light_blue_carpet"
+          },
+          "xp": 5
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "maxUses": 16,
+          "sell": {
+            "functions": [
+              {
+                "add": false,
+                "count": 4.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:yellow_carpet"
+          },
+          "xp": 5
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "maxUses": 16,
+          "sell": {
+            "functions": [
+              {
+                "add": false,
+                "count": 4.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:lime_carpet"
+          },
+          "xp": 5
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "maxUses": 16,
+          "sell": {
+            "functions": [
+              {
+                "add": false,
+                "count": 4.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:pink_carpet"
+          },
+          "xp": 5
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "maxUses": 16,
+          "sell": {
+            "functions": [
+              {
+                "add": false,
+                "count": 4.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:gray_carpet"
+          },
+          "xp": 5
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "maxUses": 16,
+          "sell": {
+            "functions": [
+              {
+                "add": false,
+                "count": 4.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:light_gray_carpet"
+          },
+          "xp": 5
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "maxUses": 16,
+          "sell": {
+            "functions": [
+              {
+                "add": false,
+                "count": 4.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:cyan_carpet"
+          },
+          "xp": 5
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "maxUses": 16,
+          "sell": {
+            "functions": [
+              {
+                "add": false,
+                "count": 4.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:purple_carpet"
+          },
+          "xp": 5
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "maxUses": 16,
+          "sell": {
+            "functions": [
+              {
+                "add": false,
+                "count": 4.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:blue_carpet"
+          },
+          "xp": 5
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "maxUses": 16,
+          "sell": {
+            "functions": [
+              {
+                "add": false,
+                "count": 4.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:brown_carpet"
+          },
+          "xp": 5
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "maxUses": 16,
+          "sell": {
+            "functions": [
+              {
+                "add": false,
+                "count": 4.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:green_carpet"
+          },
+          "xp": 5
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "maxUses": 16,
+          "sell": {
+            "functions": [
+              {
+                "add": false,
+                "count": 4.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:red_carpet"
+          },
+          "xp": 5
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "maxUses": 16,
+          "sell": {
+            "functions": [
+              {
+                "add": false,
+                "count": 4.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:black_carpet"
+          },
+          "xp": 5
+        }
+      ],
+      "rolls": 2.0
+    }
+  ]
+}

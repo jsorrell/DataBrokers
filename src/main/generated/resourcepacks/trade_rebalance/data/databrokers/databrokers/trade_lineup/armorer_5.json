@@ -1,0 +1,931 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "databrokers:alternatives",
+          "children": [
+            {
+              "buy": {
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 16.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "items": "minecraft:emerald"
+              },
+              "buyB": {
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 4.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "items": "minecraft:diamond"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:desert"
+                    }
+                  }
+                }
+              ],
+              "maxUses": 3,
+              "sell": {
+                "functions": [
+                  {
+                    "function": "databrokers:enchant_with_provider",
+                    "provider": {
+                      "type": "minecraft:single",
+                      "enchantment": "minecraft:thorns",
+                      "level": 1
+                    }
+                  }
+                ],
+                "items": "minecraft:diamond_chestplate"
+              },
+              "xp": 30
+            }
+          ]
+        },
+        {
+          "type": "databrokers:alternatives",
+          "children": [
+            {
+              "buy": {
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 16.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "items": "minecraft:emerald"
+              },
+              "buyB": {
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 3.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "items": "minecraft:diamond"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:desert"
+                    }
+                  }
+                }
+              ],
+              "maxUses": 3,
+              "sell": {
+                "functions": [
+                  {
+                    "function": "databrokers:enchant_with_provider",
+                    "provider": {
+                      "type": "minecraft:single",
+                      "enchantment": "minecraft:thorns",
+                      "level": 1
+                    }
+                  }
+                ],
+                "items": "minecraft:diamond_leggings"
+              },
+              "xp": 30
+            }
+          ]
+        },
+        {
+          "type": "databrokers:alternatives",
+          "children": [
+            {
+              "buy": {
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 16.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "items": "minecraft:emerald"
+              },
+              "buyB": {
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 3.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "items": "minecraft:diamond"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:plains"
+                    }
+                  }
+                }
+              ],
+              "maxUses": 3,
+              "sell": {
+                "functions": [
+                  {
+                    "function": "databrokers:enchant_with_provider",
+                    "provider": {
+                      "type": "minecraft:single",
+                      "enchantment": "minecraft:protection",
+                      "level": 1
+                    }
+                  }
+                ],
+                "items": "minecraft:diamond_leggings"
+              },
+              "xp": 30
+            }
+          ]
+        },
+        {
+          "type": "databrokers:alternatives",
+          "children": [
+            {
+              "buy": {
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 12.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "items": "minecraft:emerald"
+              },
+              "buyB": {
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 2.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "items": "minecraft:diamond"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:plains"
+                    }
+                  }
+                }
+              ],
+              "maxUses": 3,
+              "sell": {
+                "functions": [
+                  {
+                    "function": "databrokers:enchant_with_provider",
+                    "provider": {
+                      "type": "minecraft:single",
+                      "enchantment": "minecraft:protection",
+                      "level": 1
+                    }
+                  }
+                ],
+                "items": "minecraft:diamond_boots"
+              },
+              "xp": 30
+            }
+          ]
+        },
+        {
+          "type": "databrokers:alternatives",
+          "children": [
+            {
+              "buy": {
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 6.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "items": "minecraft:emerald"
+              },
+              "buyB": {
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 2.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "items": "minecraft:diamond"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:savanna"
+                    }
+                  }
+                }
+              ],
+              "maxUses": 3,
+              "sell": {
+                "functions": [
+                  {
+                    "function": "databrokers:enchant_with_provider",
+                    "provider": {
+                      "type": "minecraft:single",
+                      "enchantment": "minecraft:binding_curse",
+                      "level": 1
+                    }
+                  }
+                ],
+                "items": "minecraft:diamond_helmet"
+              },
+              "xp": 30
+            }
+          ]
+        },
+        {
+          "type": "databrokers:alternatives",
+          "children": [
+            {
+              "buy": {
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 8.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "items": "minecraft:emerald"
+              },
+              "buyB": {
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 3.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "items": "minecraft:diamond"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:savanna"
+                    }
+                  }
+                }
+              ],
+              "maxUses": 3,
+              "sell": {
+                "functions": [
+                  {
+                    "function": "databrokers:enchant_with_provider",
+                    "provider": {
+                      "type": "minecraft:single",
+                      "enchantment": "minecraft:binding_curse",
+                      "level": 1
+                    }
+                  }
+                ],
+                "items": "minecraft:diamond_chestplate"
+              },
+              "xp": 30
+            }
+          ]
+        },
+        {
+          "type": "databrokers:alternatives",
+          "children": [
+            {
+              "buy": {
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 12.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "items": "minecraft:emerald"
+              },
+              "buyB": {
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 2.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "items": "minecraft:diamond"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:snow"
+                    }
+                  }
+                }
+              ],
+              "maxUses": 3,
+              "sell": {
+                "functions": [
+                  {
+                    "function": "databrokers:enchant_with_provider",
+                    "provider": {
+                      "type": "minecraft:single",
+                      "enchantment": "minecraft:frost_walker",
+                      "level": 1
+                    }
+                  }
+                ],
+                "items": "minecraft:diamond_boots"
+              },
+              "xp": 30
+            }
+          ]
+        },
+        {
+          "type": "databrokers:alternatives",
+          "children": [
+            {
+              "buy": {
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 12.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "items": "minecraft:emerald"
+              },
+              "buyB": {
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 3.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "items": "minecraft:diamond"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:snow"
+                    }
+                  }
+                }
+              ],
+              "maxUses": 3,
+              "sell": {
+                "functions": [
+                  {
+                    "function": "databrokers:enchant_with_provider",
+                    "provider": {
+                      "type": "minecraft:single",
+                      "enchantment": "minecraft:aqua_affinity",
+                      "level": 1
+                    }
+                  }
+                ],
+                "items": "minecraft:diamond_helmet"
+              },
+              "xp": 30
+            }
+          ]
+        },
+        {
+          "type": "databrokers:alternatives",
+          "children": [
+            {
+              "buy": {
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 9.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "items": "minecraft:emerald"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:jungle"
+                    }
+                  }
+                }
+              ],
+              "maxUses": 3,
+              "sell": {
+                "functions": [
+                  {
+                    "function": "databrokers:enchant_with_provider",
+                    "provider": {
+                      "type": "minecraft:single",
+                      "enchantment": "minecraft:projectile_protection",
+                      "level": 1
+                    }
+                  }
+                ],
+                "items": "minecraft:chainmail_helmet"
+              },
+              "xp": 30
+            }
+          ]
+        },
+        {
+          "type": "databrokers:alternatives",
+          "children": [
+            {
+              "buy": {
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 8.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "items": "minecraft:emerald"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:jungle"
+                    }
+                  }
+                }
+              ],
+              "maxUses": 3,
+              "sell": {
+                "functions": [
+                  {
+                    "function": "databrokers:enchant_with_provider",
+                    "provider": {
+                      "type": "minecraft:single",
+                      "enchantment": "minecraft:feather_falling",
+                      "level": 1
+                    }
+                  }
+                ],
+                "items": "minecraft:chainmail_boots"
+              },
+              "xp": 30
+            }
+          ]
+        },
+        {
+          "type": "databrokers:alternatives",
+          "children": [
+            {
+              "buy": {
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 9.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "items": "minecraft:emerald"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:swamp"
+                    }
+                  }
+                }
+              ],
+              "maxUses": 3,
+              "sell": {
+                "functions": [
+                  {
+                    "function": "databrokers:enchant_with_provider",
+                    "provider": {
+                      "type": "minecraft:single",
+                      "enchantment": "minecraft:respiration",
+                      "level": 1
+                    }
+                  }
+                ],
+                "items": "minecraft:chainmail_helmet"
+              },
+              "xp": 30
+            }
+          ]
+        },
+        {
+          "type": "databrokers:alternatives",
+          "children": [
+            {
+              "buy": {
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 8.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "items": "minecraft:emerald"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:swamp"
+                    }
+                  }
+                }
+              ],
+              "maxUses": 3,
+              "sell": {
+                "functions": [
+                  {
+                    "function": "databrokers:enchant_with_provider",
+                    "provider": {
+                      "type": "minecraft:single",
+                      "enchantment": "minecraft:depth_strider",
+                      "level": 1
+                    }
+                  }
+                ],
+                "items": "minecraft:chainmail_boots"
+              },
+              "xp": 30
+            }
+          ]
+        },
+        {
+          "type": "databrokers:alternatives",
+          "children": [
+            {
+              "buy": {
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 18.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "items": "minecraft:emerald"
+              },
+              "buyB": {
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 4.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "items": "minecraft:diamond"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:taiga"
+                    }
+                  }
+                }
+              ],
+              "maxUses": 3,
+              "sell": {
+                "functions": [
+                  {
+                    "function": "databrokers:enchant_with_provider",
+                    "provider": {
+                      "type": "minecraft:single",
+                      "enchantment": "minecraft:blast_protection",
+                      "level": 1
+                    }
+                  }
+                ],
+                "items": "minecraft:diamond_chestplate"
+              },
+              "xp": 30
+            }
+          ]
+        },
+        {
+          "type": "databrokers:alternatives",
+          "children": [
+            {
+              "buy": {
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 18.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "items": "minecraft:emerald"
+              },
+              "buyB": {
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 3.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "items": "minecraft:diamond"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:taiga"
+                    }
+                  }
+                }
+              ],
+              "maxUses": 3,
+              "sell": {
+                "functions": [
+                  {
+                    "function": "databrokers:enchant_with_provider",
+                    "provider": {
+                      "type": "minecraft:single",
+                      "enchantment": "minecraft:blast_protection",
+                      "level": 1
+                    }
+                  }
+                ],
+                "items": "minecraft:diamond_leggings"
+              },
+              "xp": 30
+            }
+          ]
+        },
+        {
+          "type": "databrokers:alternatives",
+          "children": [
+            {
+              "buy": {
+                "items": "minecraft:diamond_block"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:taiga"
+                    }
+                  }
+                }
+              ],
+              "sell": {
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 42.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "items": "minecraft:emerald"
+              },
+              "xp": 30
+            }
+          ]
+        },
+        {
+          "type": "databrokers:alternatives",
+          "children": [
+            {
+              "buy": {
+                "items": "minecraft:iron_block"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:plains"
+                    }
+                  }
+                }
+              ],
+              "sell": {
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 4.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "items": "minecraft:emerald"
+              },
+              "xp": 30
+            },
+            {
+              "buy": {
+                "items": "minecraft:iron_block"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:savanna"
+                    }
+                  }
+                }
+              ],
+              "sell": {
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 4.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "items": "minecraft:emerald"
+              },
+              "xp": 30
+            },
+            {
+              "buy": {
+                "items": "minecraft:iron_block"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:snow"
+                    }
+                  }
+                }
+              ],
+              "sell": {
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 4.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "items": "minecraft:emerald"
+              },
+              "xp": 30
+            },
+            {
+              "buy": {
+                "items": "minecraft:iron_block"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:jungle"
+                    }
+                  }
+                }
+              ],
+              "sell": {
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 4.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "items": "minecraft:emerald"
+              },
+              "xp": 30
+            },
+            {
+              "buy": {
+                "items": "minecraft:iron_block"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:desert"
+                    }
+                  }
+                }
+              ],
+              "sell": {
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 4.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "items": "minecraft:emerald"
+              },
+              "xp": 30
+            },
+            {
+              "buy": {
+                "items": "minecraft:iron_block"
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:villager",
+                      "variant": "minecraft:swamp"
+                    }
+                  }
+                }
+              ],
+              "sell": {
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 4.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "items": "minecraft:emerald"
+              },
+              "xp": 30
+            }
+          ]
+        }
+      ],
+      "rolls": 2.0
+    }
+  ]
+}

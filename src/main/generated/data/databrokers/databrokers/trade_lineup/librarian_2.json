@@ -1,0 +1,53 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 4.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:book"
+          },
+          "sell": {
+            "items": "minecraft:emerald"
+          },
+          "xp": 10
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "buyB": {
+            "items": "minecraft:book"
+          },
+          "modifiers": [
+            {
+              "type": "databrokers:vanilla_enchant_book",
+              "enchantments": "#minecraft:tradeable"
+            }
+          ],
+          "priceMultiplier": 0.2,
+          "sell": {
+            "items": "minecraft:enchanted_book"
+          },
+          "xp": 5
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "items": "minecraft:lantern"
+          },
+          "xp": 5
+        }
+      ],
+      "rolls": 2.0
+    }
+  ]
+}

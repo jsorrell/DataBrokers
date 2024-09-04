@@ -1,0 +1,138 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "items": "minecraft:cake"
+          },
+          "xp": 15
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "functions": [
+              {
+                "effects": [
+                  {
+                    "type": "minecraft:night_vision",
+                    "duration": 5.0
+                  }
+                ],
+                "function": "minecraft:set_stew_effect"
+              }
+            ],
+            "items": "minecraft:suspicious_stew"
+          },
+          "xp": 15
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "functions": [
+              {
+                "effects": [
+                  {
+                    "type": "minecraft:jump_boost",
+                    "duration": 8.0
+                  }
+                ],
+                "function": "minecraft:set_stew_effect"
+              }
+            ],
+            "items": "minecraft:suspicious_stew"
+          },
+          "xp": 15
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "functions": [
+              {
+                "effects": [
+                  {
+                    "type": "minecraft:weakness",
+                    "duration": 7.0
+                  }
+                ],
+                "function": "minecraft:set_stew_effect"
+              }
+            ],
+            "items": "minecraft:suspicious_stew"
+          },
+          "xp": 15
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "functions": [
+              {
+                "effects": [
+                  {
+                    "type": "minecraft:blindness",
+                    "duration": 6.0
+                  }
+                ],
+                "function": "minecraft:set_stew_effect"
+              }
+            ],
+            "items": "minecraft:suspicious_stew"
+          },
+          "xp": 15
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "functions": [
+              {
+                "effects": [
+                  {
+                    "type": "minecraft:poison",
+                    "duration": 14.0
+                  }
+                ],
+                "function": "minecraft:set_stew_effect"
+              }
+            ],
+            "items": "minecraft:suspicious_stew"
+          },
+          "xp": 15
+        },
+        {
+          "buy": {
+            "items": "minecraft:emerald"
+          },
+          "sell": {
+            "functions": [
+              {
+                "effects": [
+                  {
+                    "type": "minecraft:saturation",
+                    "duration": 0.35
+                  }
+                ],
+                "function": "minecraft:set_stew_effect"
+              }
+            ],
+            "items": "minecraft:suspicious_stew"
+          },
+          "xp": 15
+        }
+      ],
+      "rolls": 2.0
+    }
+  ]
+}

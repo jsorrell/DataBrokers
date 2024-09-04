@@ -1,0 +1,41 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "buy": {
+            "items": "minecraft:diamond"
+          },
+          "sell": {
+            "items": "minecraft:emerald"
+          },
+          "xp": 30
+        },
+        {
+          "buy": {
+            "functions": [
+              {
+                "add": false,
+                "count": 12.0,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "items": "minecraft:emerald"
+          },
+          "maxUses": 3,
+          "modifiers": [
+            {
+              "type": "databrokers:vanilla_enchant_item"
+            }
+          ],
+          "priceMultiplier": 0.2,
+          "sell": {
+            "items": "minecraft:diamond_axe"
+          },
+          "xp": 15
+        }
+      ],
+      "rolls": 2.0
+    }
+  ]
+}

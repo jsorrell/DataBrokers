@@ -1,0 +1,4 @@
+{
+  "dataPack.databrokers.trade_rebalance.name": "trade_rebalance (DataBrokers)",
+  "dataPack.databrokers.trade_rebalance.description": "Enable with trade_rebalance"
+}
